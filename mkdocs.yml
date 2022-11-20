@@ -8,9 +8,14 @@ theme:
 
 # Navigation
 nav:
-    - Welcome: index.md
-    - Documents:
-        - Network: network.md
+    - Welcome: 'index.md'
+    - 'User Guide':
+        - 'このドキュメントの書き方': 'writing-your-docs.md'
+    - VJ:
+        - '配線': 'vj/wire.md'
+        - 'ネットワーク': 
+          - 'NDI': 'vj/ndi.md'
+          - 'ネットワーク構成': 'vj/network.md'
 # その他の設定
 extra:
   search:
