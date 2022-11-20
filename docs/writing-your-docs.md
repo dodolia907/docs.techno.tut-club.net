@@ -4,5 +4,5 @@
 
 ## 書式
 このドキュメントはMarkdown形式で書かれています。  
-Markdownの書式については[こちら](https://www.markdown.jp/what-is-markdown/)を参照してください。
+Markdownの書式については[こちら](https://www.markdown.jp/what-is-markdown/)を参照してください。  
 DiscordやSlackなどのチャットツールで使われていることが多いので、既に使っている人はすぐに使えると思います。  
