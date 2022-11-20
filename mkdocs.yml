@@ -10,10 +10,7 @@ theme:
 nav:
     - Welcome: index.md
     - Documents:
-        - Minecraft: minecraft.md
-        - Discord Bot: discordbot.md
-        - VPS: vps.md
-
+        - Network: network.md
 # その他の設定
 extra:
   search:
