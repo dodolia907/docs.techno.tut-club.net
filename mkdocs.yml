@@ -1,0 +1,32 @@
+# ドキュメントのタイトル ( ブラウザのタブなどに表示される )
+site_name: gikadai.tech Docs
+
+# テーマの指定 ( mkdocs-material を指定する )
+theme:
+  name: material
+  language: ja 
+
+# Navigation
+nav:
+    - Welcome: index.md
+    - Documents:
+        - Minecraft: minecraft.md
+        - Discord Bot: discordbot.md
+        - VPS: vps.md
+
+# その他の設定
+extra:
+  search:
+    language: "ja"  # 日本語での検索に対応
+  font:
+    text: "Noto Sans JP"  # フォントの変更
+    code: "Consolas"  # 埋め込みコードのフォントの変更
+
+copyright: Copyright &copy; 2014 - 2022 TechnoTUT  # フッターに表示するコピーライト
+
+# CSS の設定
+extra_css:
+  - "css/custom.css"  # このあと作成する CSS ファイル
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"  # 外部 CSS の読み込みを行いフォントを帰る
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
