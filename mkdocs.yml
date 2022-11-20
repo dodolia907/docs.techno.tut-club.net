@@ -1,5 +1,5 @@
 # ドキュメントのタイトル ( ブラウザのタブなどに表示される )
-site_name: gikadai.tech Docs
+site_name: TechnoTUT Docs
 
 # テーマの指定 ( mkdocs-material を指定する )
 theme:
