@@ -32,3 +32,9 @@ extra_css:
   - "//fonts.googleapis.com/earlyaccess/notosansjp.css"  # 外部 CSS の読み込みを行いフォントを帰る
   - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
   - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+
+# 拡張機能
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
