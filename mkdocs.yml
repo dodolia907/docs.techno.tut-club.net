@@ -11,6 +11,9 @@ nav:
     - Welcome: 'index.md'
     - 'User Guide':
         - 'このドキュメントの書き方': 'writing-your-docs.md'
+    - 'ホームページ':
+        - '構成': 'hp/hp-config.md'
+        - '書き方': 'hp/writing-your-hp.md'
     - VJ:
         - '配線': 'vj/wire.md'
         - 'ネットワーク': 
