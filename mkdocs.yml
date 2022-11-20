@@ -15,7 +15,6 @@ nav:
         - '構成': 'hp/hp-config.md'
         - '書き方': 'hp/writing-your-hp.md'
     - VJ:
-        - '配線': 'vj/wire.md'
         - 'ネットワーク': 
           - 'NDI': 'vj/ndi.md'
           - 'ネットワーク構成': 'vj/network.md'
