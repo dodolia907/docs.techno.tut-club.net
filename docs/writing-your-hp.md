@@ -1,8 +1,8 @@
 # ドキュメントの書き方
 ## 概要
-ここではこのドキュメントの書き方について説明します。  
+ここではTechnoTUTホームページの書き方について説明します。  
 また、TechnoTUTホームページについても同様の手順で書くことができます。  
-TechnoTUTホームページの書き方については[こちら](write-your-hp.md)をご覧ください。
+このドキュメントの書き方については[こちら](write-your-docs.md)をご覧ください。
 
 ## 手順
 1. このドキュメントのソースをcloneまたはpullします。
@@ -16,19 +16,18 @@ TechnoTUTホームページの書き方については[こちら](write-your-hp.
 [こちら](https://backlog.com/ja/git-tutorial/pull-request/01/)をご覧ください。
 
 ### 書式
-このドキュメントはMKDocsを利用しています。MKDocsではMarkdown形式でドキュメントを書きます。   
+TechnoTUTホームページはHugoを利用しています。HugoではMarkdown形式でページを書きます。   
 Markdownの書式については[こちら](https://www.markdown.jp/what-is-markdown/)を参照してください。  
 DiscordやSlackなどのチャットツールで使われていることが多いので、既に使っている人はすぐに使えると思います。
 
 ### 編集
-docsフォルダ内に任意の名前で`.md`ファイルを作成し編集します。  
-編集が終わったら、`mkdocs.yml`の`nav`に追加したファイルのパスを追加します。
+contentフォルダ内のファイルを操作します。  
+例えば、Blogページ内に新たにページを作成する場合は、`/content/blog`内に任意の名前で`.md`ファイルを作成し編集します。  
 
 ### プレビュー
-#### Pythonのインストール
-[こちら](https://www.python.jp/install/windows/install_py3.html)を参照してください。
-#### mkdocsのインストール
-pip install mkdocsを実行します。  
-[こちら](https://www.mkdocs.org/#installation)を参照してください。
-#### プレビュー
-`mkdocs serve`コマンドを実行し、任意のブラウザで`http://localhost:8000/`にアクセスすると表示されます。
+#### Hugoのインストール
+Hugoをインストールします。  
+[こちら](https://gohugo.io/getting-started/installing/)を参照してください。
+#### プレビューの実行
+`hugo -D server`を実行します。  
+任意のブラウザで`http://localhost:1313/`にアクセスするとプレビューが表示されます。
