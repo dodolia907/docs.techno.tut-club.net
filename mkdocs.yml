@@ -41,10 +41,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - toc:
-      permalink: true
-      title: On this page
-      permallink: true
   - tables
   - pymdownx.arithmatex:
       generic: true
