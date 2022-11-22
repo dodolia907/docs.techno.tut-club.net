@@ -51,3 +51,9 @@ nav:
 色を変更する場合は、`/themes/roxo/assets/scss/_variables.scss`を編集します。  
   
 ### 4. 編集が完了したらpushします。
+編集が完了したら、`Commit to [ブランチ名]`に変更内容を記入します。
+`Commit to [ブランチ名]`のところをクリックして、`Commit to [ブランチ名]`を選択します。
+`Push origin`のところをクリックします。
+### 5. GitHub上でプルリクエストを作成します。
+GitHub上でプルリクエストを作成します。
+`Create Pull Request`のところをクリックします。
