@@ -11,9 +11,9 @@ nav:
     - Welcome: 'index.md'
     - 'User Guide':
         - '編集方法':
-          - '概要': 'user-guide/about.md'
-          - 'Gitについて': 'user-guide/git.md'
-          - '編集方法': 'user-guide/edit.md'
+          - '概要': 'user-guide/how-to/about.md'
+          - 'Gitについて': 'user-guide/how-to/git.md'
+          - '編集方法': 'user-guide/how-to/edit.md'
     - VJ:
         - 'ネットワーク': 
           - 'NDI': 'vj/ndi.md'
