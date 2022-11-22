@@ -14,6 +14,7 @@ nav:
           - '概要': 'user-guide/how-to/about.md'
           - 'Gitについて': 'user-guide/how-to/git.md'
           - '編集方法': 'user-guide/how-to/edit.md'
+          - 'プレビュー方法': 'user-guide/how-to/preview.md'
     - VJ:
         - 'ネットワーク': 
           - 'NDI': 'vj/ndi.md'
