@@ -5,4 +5,4 @@
 このドキュメントは、TechnoTUTの非公式ドキュメントです。MKDocsを使用して作成されています。  
 GitHubとCloudflare Pagesで構成されており、プッシュすると自動でデプロイされます。  
   
-このドキュメントの書き方については[こちら](/docs/user-guide/how-to/about.md)を参照してください。
+このドキュメントの書き方については[こちら](user-guide/how-to/about)を参照してください。
