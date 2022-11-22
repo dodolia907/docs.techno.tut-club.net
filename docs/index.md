@@ -3,6 +3,6 @@
 
 ## このドキュメントについて
 このドキュメントは、TechnoTUTの非公式ドキュメントです。MKDocsを使用して作成されています。  
-GitHubとCloudflare Pagesで構成されており、プッシュすると自動でCloudflare Global Networkにデプロイされます。  
+GitHubとCloudflare Pagesで構成されており、プッシュすると自動でデプロイされます。  
   
-このドキュメントの書き方については[こちら](writing-your-docs.md)を参照してください。
+このドキュメントの書き方については[こちら](/docs/how-to/about.md)を参照してください。

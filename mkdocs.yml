@@ -10,10 +10,11 @@ theme:
 nav:
     - Welcome: 'index.md'
     - 'User Guide':
-        - 'このドキュメントの書き方': 'writing-your-docs.md'
-    - 'ホームページ':
-        - '構成': 'hp/hp-config.md'
-        - '書き方': 'hp/writing-your-hp.md'
+        - '編集方法':
+          - '概要': 'user-guide/how-to/about.md'
+          - 'Gitについて': 'user-guide/how-to/git.md'
+          - '編集方法': 'user-guide/how-to/edit.md'
+          - 'プレビュー方法': 'user-guide/how-to/preview.md'
     - VJ:
         - 'ネットワーク': 
           - 'NDI': 'vj/ndi.md'
