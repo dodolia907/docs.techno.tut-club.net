@@ -15,10 +15,11 @@ nav:
           - 'Gitについて': 'user-guide/how-to/git.md'
           - '編集方法': 'user-guide/how-to/edit.md'
           - 'プレビュー方法': 'user-guide/how-to/preview.md'
-    - VJ:
-        - 'ネットワーク': 
-          - 'NDI': 'vj/ndi.md'
-          - 'ネットワーク構成': 'vj/network.md'
+    - 'Network':
+        - 'ネットワーク構成': 'network/network.md'
+        - 'Pro DJ Link': 'network/pdl.md'
+        - 'NDI': 'network/ndi.md'
+        
 # その他の設定
 extra:
   search:
