@@ -17,7 +17,8 @@ nav:
           - 'プレビュー方法': 'user-guide/how-to/preview.md'
     - 'Network':
         - 'ネットワーク構成': 'network/network.md'
-        - 'Pro DJ Link': 'network/pdl.md'
+        - 'Pro DJ Link': 'network/prodjlink.md'
+        - 'Ableton Link': 'network/abletonlink.md'
         - 'NDI': 'network/ndi.md'
         
 # その他の設定
