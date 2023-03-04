@@ -1,14 +1,21 @@
+---
+title: プレビューについて
+sidebar_label: プレビューについて
+sidebar_position: 4
+---
 # プレビュー画面を見ながら編集する
 このドキュメントの編集も、ホームページの編集も、プレビュー画面を見ながら編集することができます。
 ## このドキュメントのプレビュー
 プレビュー画面では、編集内容を保存するたびに自動的に更新されます。
-### Pythonのインストール
-[こちら](https://www.python.jp/install/windows/install_py3.html)を参照してください。
-### mkdocsのインストール
-`pip install mkdocs`を実行します。  
-[こちら](https://www.mkdocs.org/#installation)を参照してください。
-### プレビュー
-`mkdocs serve`コマンドを実行し、任意のブラウザで`http://localhost:8000/`にアクセスすると表示されます。
+### Node.jsのインストール
+Node.jsをインストールします。  
+Windowsの場合は、nodejs.orgからインストーラをダウンロードしてインストールします。[こちら](https://nodejs.org/ja/download/)を参照してください。LTS版のインストールを推奨します。  
+Macの場合は、Homebrewを使用してインストールします。`brew install node`を実行してください。
+### Docusaurusのインストール
+Docusaurusをインストールします。`package.json`があるディレクトリで`npm install`を実行します。
+### プレビューの実行
+`npm start`を実行します。自動でブラウザが開き、プレビューが表示されます。  
+
 ## ホームページのプレビュー
 ### Hugoのインストール
 Hugoをインストールします。  

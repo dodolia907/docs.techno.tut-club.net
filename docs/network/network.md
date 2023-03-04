@@ -1,4 +1,10 @@
-# 概要
+---
+title: Network
+sidebar_label: Network
+sidebar_position: 3
+---
+# Network
+## 概要
 ここでは部室のネットワークの全体図を示します。
 ![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network.drawio.svg)  
 ルーターとしてNEC IX2025、L2スイッチとしてCisco Catalyst 2960+ 24TC-Lを、無線APにはELECOM WRC-1167FEBK-Sを使用しています。  

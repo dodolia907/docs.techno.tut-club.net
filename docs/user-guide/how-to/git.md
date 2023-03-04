@@ -1,4 +1,9 @@
-# Gitへの理解
+---
+title: Gitの理解
+sidebar_label: Gitの理解
+sidebar_position: 2
+---
+# Gitの理解
 このドキュメントとホームページはGitHubで管理されています。  
 ですから、編集するためにはGitやGitHubについて理解する必要があります。  
 
