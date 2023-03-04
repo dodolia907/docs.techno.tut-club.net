@@ -7,7 +7,7 @@ sidebar_position: 4
 Last update: 2023/3/4 by OIKAWA, Tatsuya
 ## 概要
 ここではDJイベントで使う音響機器の配線と設定を示す。
-![audio](images/technotut_audio_live_setup.svg)  
+![audio](https://media.discordapp.net/attachments/982839912887877716/1081445858614190090/image.png?width=719&height=567)  
 FIGURE 1 Audio setup for DJ live event.
 
 ---
@@ -27,12 +27,16 @@ FIGURE 1 Audio setup for DJ live event.
 4. 15
 5. 12
 
+---
+
 ## 設定
 電源を入れたら、各機器のVOLUMEやGAINを上げていく。DJシステム上で何か曲を流しながら、ゆっくりと上げていくとよい。上げる機器の順番は任意だが、急に大音量が流れることのないように。心臓がもたない。
 
 音量の基準は、ミキサーは+2を超えないように。DJシステムは責任者に確認。DJはそれを超えないように、曲ごとにGAINを調節しながらプレイする。曲のGAIN調整はDJの命。
 
 【任意】音量調整ができたら、ミキサー上のイコライザで周波数特性を調整する。高音、中音、低音それぞれがはっきり聴こえる状態を目指す。色々なジャンルの音楽を流しながら調整したい。DJ陣の音出しを兼ねてもよい。
+
+---
 
 ## 付録: 各機器詳細
 
