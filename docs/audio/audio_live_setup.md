@@ -7,7 +7,7 @@ sidebar_position: 4
 Last update: 2023/3/4 by OIKAWA, Tatsuya
 ## 概要
 ここではDJイベントで使う音響機器の配線と設定を示す。
-![audio](images/technotut_audio_live_setup.svg)  
+![audio](https://media.discordapp.net/attachments/982839912887877716/1081445858614190090/image.png?width=719&height=567)  
 FIGURE 1 Audio setup for DJ live event.
 
 ---
