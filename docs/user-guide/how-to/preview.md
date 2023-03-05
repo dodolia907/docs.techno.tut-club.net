@@ -17,10 +17,12 @@ Docusaurusをインストールします。`package.json`があるディレク�
 `npm start`を実行します。自動でブラウザが開き、プレビューが表示されます。  
 
 ## ホームページのプレビュー
-### Hugoのインストール
-Hugoをインストールします。  
-[こちら](https://gohugo.io/getting-started/installing/)を参照してください。  
-Windowsの場合は、zipファイルをダウンロードして解凍し、パスを通します。
+### Node.jsのインストール
+Node.jsをインストールします。  
+Windowsの場合は、nodejs.orgからインストーラをダウンロードしてインストールします。[こちら](https://nodejs.org/ja/download/)を参照してください。LTS版のインストールを推奨します。  
+Macの場合は、Homebrewを使用してインストールします。`brew install node`を実行してください。
+### Next.jsのインストール
+Next.jsをインストールします。`package.json`があるディレクトリで`npm install`を実行します。
 ### プレビューの実行
-`hugo -D server`を実行します。  
-任意のブラウザで`http://localhost:1313/`にアクセスするとプレビューが表示されます。
+`npm run dev`を実行します。  
+任意のブラウザで`http://localhost:3000/`にアクセスするとプレビューが表示されます。
