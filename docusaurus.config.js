@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TechnoTUT', // Usually your GitHub org/user name.
-  projectName: 'docs.technotut.net_v2', // Usually your repo name.
+  projectName: 'docs.technotut.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
