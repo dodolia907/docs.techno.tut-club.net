@@ -1,5 +1,5 @@
 name: Cloudflare Pages
-on: [push, pull_request]
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
