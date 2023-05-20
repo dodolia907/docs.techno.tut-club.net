@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://v2docs.technotut.net',
+  url: 'https://docs.technotut.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -90,10 +90,6 @@ const config = {
               {
                 label: 'bandcamp',
                 href: 'https://technotut.bandcamp.com/',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
