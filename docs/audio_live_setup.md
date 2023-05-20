@@ -1,7 +1,7 @@
 ---
 title: Audio setup
 sidebar_label: Audio
-sidebar_position: 4
+sidebar_position: 3
 ---
 # Audio Setup for DJ Live Event
 Last update: 2023/3/4 by OIKAWA, Tatsuya
