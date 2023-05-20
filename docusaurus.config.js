@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://v2docs.technotut.net',
+  url: 'https://docs.technotut.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TechnoTUT', // Usually your GitHub org/user name.
-  projectName: 'docs.technotut.net_v2', // Usually your repo name.
+  projectName: 'docs.technotut.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -71,7 +71,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/TechnoTUT/docs.technotut.net_v2',
+            href: 'https://github.com/TechnoTUT/docs.technotut.net',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,10 +90,6 @@ const config = {
               {
                 label: 'bandcamp',
                 href: 'https://technotut.bandcamp.com/',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
