@@ -1,7 +1,7 @@
 ---
 title: Network
 sidebar_label: Network
-sidebar_position: 4
+sidebar_position: 7
 ---
 # Network
 Last update: 2023/5/21 by DDlia  
@@ -9,7 +9,7 @@ Last update: 2023/5/21 by DDlia
 
 ## 概要
 ここでは部室のネットワークの全体図を示します。
-![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network.drawio.svg)  
+![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network_event.drawio.svg)  
 ルーターとしてNEC IX2025、L3スイッチとしてAllied Telesis AT-x600-48Ts、L2スイッチとしてCisco Catalyst 2960+ 24TC-LとAllied Telesis GS924M V2を、無線APにはCisco Aironet 2700を使用しています。  
 Pro DJ Link機能により、コンピュータで楽曲情報を取得したり、スマートフォンやタブレットでDJを行ったりすることができます。  
 さらに、NDIによって映像をネットワーク経由で送受信したり、仮想基盤を使用したりすることができます。
