@@ -71,7 +71,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/TechnoTUT/docs.technotut.net_v2',
+            href: 'https://github.com/TechnoTUT/docs.technotut.net',
             label: 'GitHub',
             position: 'right',
           },
