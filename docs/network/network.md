@@ -4,31 +4,141 @@ sidebar_label: Network
 sidebar_position: 4
 ---
 # Network
+Last update: 2023/5/21 by DDlia  
+--- 
+
 ## 概要
 ここでは部室のネットワークの全体図を示します。
 ![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network.drawio.svg)  
-ルーターとしてNEC IX2025、L2スイッチとしてCisco Catalyst 2960+ 24TC-Lを、無線APにはELECOM WRC-1167FEBK-Sを使用しています。  
-RekordboxのLink Export機能により、コンピュータで楽曲情報を取得したり、スマートフォンやタブレットでDJを行ったりすることができます。  
-さらに、LAN内のWebサーバーにアクセスすることで、楽曲情報を確認したり、[現在のDJの情報](https://currentdj.technotut.net)を確認したりすることができます。
+ルーターとしてNEC IX2025、L3スイッチとしてAllied Telesis AT-x600-48Ts、L2スイッチとしてCisco Catalyst 2960+ 24TC-LとAllied Telesis GS924M V2を、無線APにはCisco Aironet 2700を使用しています。  
+Pro DJ Link機能により、コンピュータで楽曲情報を取得したり、スマートフォンやタブレットでDJを行ったりすることができます。  
+さらに、NDIによって映像をネットワーク経由で送受信したり、仮想基盤を使用したりすることができます。
 
 ## ポートについて
-ポートとvlanの対応は以下の通りです。
+ポートとvlanの対応は以下の通りです。  
 
+Allied Telesis AT-x600-48Ts
 ```
+TTUT_CORE_SW#show vlan all
+VLAN ID  Name            Type    State   Member ports
+                                         (u)-Untagged, (t)-Tagged
+======= ================ ======= ======= ====================================
+1       default          STATIC  ACTIVE  port1.0.3(u) port1.0.4(u)
+                                         port1.0.41(u) port1.0.42(u)
+                                         port1.0.43(u) port1.0.44(u)
+                                         port1.0.45(u) port1.0.46(u)
+                                         port1.0.47(u) port1.0.48(u)
+9       ROUTER           STATIC  ACTIVE  port1.0.1(u)
+10      DJNW             STATIC  ACTIVE  port1.0.33(u) port1.0.34(u)
+                                         port1.0.35(u) port1.0.36(u)
+                                         port1.0.41(t) port1.0.42(t)
+                                         port1.0.43(t) port1.0.44(t)
+                                         port1.0.48(t)
+20      VJNW             STATIC  ACTIVE  port1.0.37(u) port1.0.38(u)
+                                         port1.0.39(u) port1.0.40(u)
+                                         port1.0.41(t) port1.0.42(t)
+                                         port1.0.43(t) port1.0.44(t)
+                                         port1.0.48(t)
+30      LEDNW            STATIC  ACTIVE  port1.0.2(u) port1.0.5(u) port1.0.6(u)
+                                         port1.0.7(u) port1.0.8(u) port1.0.9(u)
+                                         port1.0.10(u) port1.0.11(u)
+                                         port1.0.12(u) port1.0.13(u)
+                                         port1.0.14(u) port1.0.15(u)
+                                         port1.0.16(u) port1.0.17(u)
+                                         port1.0.18(u) port1.0.19(u)
+                                         port1.0.20(u) port1.0.21(u)
+                                         port1.0.22(u) port1.0.23(u)
+                                         port1.0.24(u) port1.0.41(t)
+                                         port1.0.42(t) port1.0.43(t)
+                                         port1.0.44(t) port1.0.48(t)
+40      MGMT             STATIC  ACTIVE  port1.0.25(u) port1.0.26(u)
+                                         port1.0.27(u) port1.0.28(u)
+                                         port1.0.29(u) port1.0.30(u)
+                                         port1.0.31(u) port1.0.32(u)
+                                         port1.0.41(t) port1.0.42(t)
+                                         port1.0.43(t) port1.0.44(t)
+                                         port1.0.48(t)
+```
+
+Cisco Catalyst 2960+ 24TC-L
+```
+TTUT_EDGE_SW1#show vlan
+
 VLAN Name                             Status    Ports
 ---- -------------------------------- --------- -------------------------------
-1    default                          active    Fa0/19, Fa0/20
-10   DJ-Network                       active    Fa0/1, Fa0/2, Fa0/3, Fa0/4
-                                                Fa0/5, Fa0/6, Fa0/21, Fa0/22
-20   VJ-Network                       active    Fa0/7, Fa0/8, Fa0/9, Fa0/10
-                                                Fa0/11, Fa0/12, Fa0/13, Fa0/14
-                                                Gi0/1, Gi0/2
-30   Lightning-Network                active    Fa0/15, Fa0/16, Fa0/17, Fa0/18
-                                                Fa0/23
+1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
+                                                Fa0/8, Fa0/9, Fa0/10, Fa0/11
+                                                Fa0/12, Fa0/13, Fa0/14, Fa0/15
+                                                Fa0/16, Fa0/17, Fa0/18, Fa0/19
+                                                Fa0/20, Fa0/21, Fa0/22, Fa0/23
+                                                Fa0/24
+10   DJNW                             active    Fa0/1, Fa0/2, Fa0/3
+20   VJNW                             active
+30   LEDNW                            active
+40   MGMT                             active
 ```
 
-NDIを使用する場合は、ギガビットポートであるGi0/1, Gi0/2を使用してください。
-ポート Fa0/19, Fa0/20 は、トランクポートとして設定されています。コンピュータを接続し、VLAN IDを指定することで、指定したVLANに接続することができます。
+Allied Telesis GS924M V2
+```
+Manager > show vlan
+
+VLAN Information
+--------------------------------------------------
+ Name ................ default
+ Identifier .......... 1
+ Status .............. Static
+ Protected Ports ..... None
+ Untagged Ports ...... None
+ Tagged Ports ........ None
+ Spanning Tree ....... default
+ Trunk Ports ......... None
+ Mirror Port ......... None
+ IP Interface ........ None
+--------------------------------------------------
+ Name ................ DJ
+ Identifier .......... 10
+ Status .............. Static
+ Protected Ports ..... None
+ Untagged Ports ...... 9-14
+ Tagged Ports ........ 15-16,23-24
+ Spanning Tree ....... default
+ Trunk Ports ......... None
+ IP Interface ........ None
+--------------------------------------------------
+ Name ................ VJ
+ Identifier .......... 20
+ Status .............. Static
+ Protected Ports ..... None
+ Untagged Ports ...... 17-22
+ Tagged Ports ........ 15-16,23-24
+ Spanning Tree ....... default
+ Trunk Ports ......... None
+ IP Interface ........ None
+--------------------------------------------------
+ Name ................ LED
+ Identifier .......... 30
+ Status .............. Static
+ Protected Ports ..... None
+ Untagged Ports ...... 1-4
+ Tagged Ports ........ 15-16,23-24
+ Spanning Tree ....... default
+ Trunk Ports ......... None
+ IP Interface ........ None
+--------------------------------------------------
+ Name ................ MGMT
+ Identifier .......... 40
+ Status .............. Static
+ Protected Ports ..... None
+ Untagged Ports ...... 5-8
+ Tagged Ports ........ 15-16,23-24
+ Spanning Tree ....... default
+ Trunk Ports ......... None
+ IP Interface ........ Yes
+--------------------------------------------------
+```
+
+NDIを使用する場合は、ギガビットポートを使用してください。
+トランクポートはスイッチ同士の接続に用いるか、コンピュータを接続しVLAN IDを指定することで指定したVLANに接続することができます。  
 
 ### VLAN IDの指定方法
 NIC(ネットワークインターフェースカード)のメーカーによって、VLAN IDの指定方法が異なります。以下では、RealtekとIntelのNICを使用している場合の設定方法を示します。  
@@ -75,3 +185,6 @@ CiscoスイッチのVLAN割当を変更するには、以下の手順を行っ�
 10. アクセスポートの場合は、`switchport access vlan [VLANの番号]`コマンドを実行して、VLANを割り当てます。トランクポートの場合は、`switchport trunk allowed vlan [VLAN番号]`コマンドを実行して、許可するVLANを割り当てます。  
 11. 変更は即時反映されます。`show vlan`コマンドを実行して、VLANの状態を確認します。  
 12. 問題がなさそうでしたら、`exit`コマンドで特権モードに戻り、`write memory`コマンドで設定を保存します。  
+
+## 経路情報の交換について
+NEC IX ルータとAllied Telesis AT-x600-48Ts L3スイッチの間では、OSPFによる経路情報の交換を行っています。接続すると自動で経路情報を交換し、通信が可能になります。
