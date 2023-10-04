@@ -1,25 +1,25 @@
 # 機材詳細
 ### ルータ
-- NEC UNIVERGE IX2015  
-![NEC UNIVERGE IX2015](https://jpn.nec.com/univerge/ix/img/photo/IX2015_S.jpg)  
+- NEC UNIVERGE IX3110  
+![NEC UNIVERGE IX3110](http://www.nec.co.jp/press/ja/0706/img/0401.jpg)
 
-- NEC UNIVERGE IX2025  
-![NEC UNIVERGE IX2025](https://jpn.nec.com/univerge/ix/img/photo/IX2025_S.jpg)
+| 機器詳細 | IX3110 |
+| --- | --- |
+| CPU | NXP PowerQUICC Ⅲ(1.33GHz) |
+| FLASH | 32MB |
+| DRAM | 256MB |
+| インターフェース | 10/100/1000BASE-Tx4, SFP(1000BASE-SX/LX)x4 |
+| シリアル | RS-232C×1(RJ45) |
+| 使用環境 | 温度0～40℃、湿度90%以下(結露なきこと) |
+| 電源 | AC100V±10% 50/60Hz±5% |
+| 消費電力 | 40W以下 |
+| 発熱量 | 144.1kJ/h以下 |
+| 騒音 | 50dB |
+| 外形寸法 | 430(W)×43(H)×315(D)mm |
+| 質量 | 5.0kg |
 
-| 機器詳細 | IX2015 | IX2025 | IX2215 | IX2105 | IX3110 |
-| --- | --- | --- | --- | --- | --- |
-| CPU | Freescale PowerQUICC(266MHz) | NXP PowerQUICC Ⅱ(300MHz) | NXP QorIQ (800MHz) | NXP PowerQUICC Ⅱ(400MHz) | NXP PowerQUICC Ⅲ(1.33GHz) |
-| FLASH | 8MB | 16MB | 32MB | 16MB | 32MB |
-| DRAM | 64MB | 64MB | 256MB | 128MB | 256MB |
-| インターフェース | 10/100BASE-TX×6 | 10/100BASE-TX×6 | 10/100/1000BASE-Tx8 | 10/100/1000BASE-Tx5 | 10/100/1000BASE-Tx4, SFP(1000BASE-SX/LX)x4 |
-| シリアル | RS-232C×1(RJ45) | RS-232C×1(RJ45) | RS-232C×1(RJ45) | RS-232C×1(RJ45) | RS-232C×1(RJ45) |
-| 使用環境 | 温度0～40℃、湿度90%以下(結露なきこと) | 温度0～45℃、湿度90%以下(結露なきこと) | 温度0～45℃、湿度90%以下(結露なきこと) | 温度0～50℃、湿度90%以下(結露なきこと) | 温度0～40℃、湿度90%以下(結露なきこと) |
-| 電源 | AC100V±10% 50/60Hz±5% | AC100V±10% 50/60Hz±5% | AC100V±10% 50/60Hz±5% | AC100V±10% 50/60Hz±5% | AC100V±10% 50/60Hz±5% |
-| 消費電力 | 12W以下 | 9W以下 | 18W以下 | 7W以下 | 40W以下 |
-| 発熱量 | 43.3kJ/h以下 | 32.4kJ/h以下 | 15.5kJ/h以下 | 25.2kJ/h以下 | 144.1kJ/h以下 |
-| 騒音 | 0dB | 0dB | 0dB | 0dB | 50dB |
-| 外形寸法 | 210(W)×43(H)×297(D)mm | 210(W)×43(H)×297(D)mm | 210(W)×43(H)×297(D)mm | 135(W)×36(H)×196(D)mm | 430(W)×43(H)×315(D)mm |
-| 質量 | 1.8kg | 1.6kg | 1.6kg | 0.8kg | 5.0kg |
+- Cisco 891FJ-K9  
+![Cisco 891FJ-K9](https://www.cisco.com/c/dam/en/us/support/web/images/series/800-series-routers-890-family.jpg)  
 
 ### L3スイッチ
 - Allied Telesis AT-x600-24TS  
@@ -43,6 +43,25 @@
 
 
 ### L2スイッチ
+- Allied Telesis AT-x210-24GT  
+![Allied Telesis AT-x210-24GT](https://www.allied-telesis.co.jp/products/list/switch/x210/images/x210.jpg)  
+[https://www.allied-telesis.co.jp/products/list/switch/x210/catalog.html](https://www.allied-telesis.co.jp/products/list/switch/x210/catalog.html)  
+
+| 機器詳細 | Allied Telesis AT-x210-24GT |
+| --- | --- |
+| FLASH | 64MB |
+| DRAM | 128MB |
+| スイッチング容量 | 48Gbps |
+| 10/100/1000BASE-Tx | 24ポート |
+| SFP(1000BASE-SX/LX) | 4ポート(排他利用) |
+| シリアル | RS-232C×1(RJ45) |
+| 使用環境 | 温度0～40℃、湿度80%以下(結露なきこと) |
+| 電源 | AC100-240V 50/60Hz |
+| 消費電力 | 28W以下 |
+| 発熱量 | 100kJ/h以下 |
+| 外形寸法 | 440(W)×44(H)×210(D)mm |
+| 質量 | 2.7kg |  
+
 - Allied Telesis GS924M V2  
 ![Allied Telesis GS924MV2](https://www.allied-telesis.co.jp/products/list/switch/gs900mv2/images/gs900mv2.jpg)  
 [https://www.allied-telesis.co.jp/products/list/switch/gs900mv2/catalog.html](https://www.allied-telesis.co.jp/products/list/switch/gs900mv2/catalog.html)  
