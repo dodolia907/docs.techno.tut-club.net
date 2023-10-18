@@ -1,6 +1,7 @@
 ---
 title: ゲストのみなさまへ
 sidebar_label: ゲストのみなさまへ
+sidebar_position: 1
 ---
 # ゲストのみなさまへ
 Last update: 2023/10/4 by DDlia   
