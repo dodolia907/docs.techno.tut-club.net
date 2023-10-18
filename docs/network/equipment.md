@@ -1,4 +1,5 @@
 # 機材詳細
+Last update: 2023/10/4 by DDlia
 ### ルータ
 - NEC UNIVERGE IX3110  
 ![NEC UNIVERGE IX3110](http://www.nec.co.jp/press/ja/0706/img/0401.jpg)
