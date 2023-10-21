@@ -1,8 +1,13 @@
-# Pro DJ Link
+---
+title: PRO DJ LINK
+sidebar_label: PRO DJ LINK
+sidebar_position: 3
+---
+# PRO DJ LINK
 Last update: 2023/5/21 by DDlia  
 ---  
-## Pro DJ Linkとは
-DJコントローラーやコンピュータをLAN接続することで、楽曲をLAN経由で読み出したり、複数のDJプレーヤーで楽曲を共有したり、Beat Syncなどの機能を利用することができます。
+## PRO DJ LINKとは
+DJシステムやコンピュータをLAN接続することで、楽曲をLAN経由で読み出したり、複数のDJプレーヤーで楽曲を共有したり、Beat Syncなどの機能を利用することができます。
 
 ## 使用方法
 ### Windows/Mac
