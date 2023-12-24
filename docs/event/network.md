@@ -8,7 +8,7 @@ Last update: 2023/10/21 by DDlia
 ## 概要
 ここではイベント時のネットワークについて説明します。  
 部室運用時のネットワーク構成は、`Network`カテゴリを参照してください。  
-![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network_event.drawio.svg)  
+![network](https://raw.githubusercontent.com/TechnoTUT/Infrastructure/main/network_event.drawio.svg)  
 ルーターとしてNEC UNIVERGE IX3110、L3スイッチとしてAllied Telesis AT-x600-48Ts、L2スイッチとしてCisco Catalyst 2960+ 24TC-LとAllied Telesis AT-x210-24GT、 Allied Telesis GS924M V2を、無線APにはCisco Aironet 2700を使用しています。  
 
 Pro DJ Link機能により、コンピュータで楽曲情報を取得したり、スマートフォンやタブレットでDJを行ったりすることができます。さらに、NDIによって映像をネットワーク経由で送受信したり、照明用の通信を行うことができます。  
@@ -16,7 +16,7 @@ Pro DJ Link機能により、コンピュータで楽曲情報を取得したり
 ## 設営について
 以下の通りに配線を行います。  
 まずは、スイッチ同士の配線から行います。  
-![network](https://raw.githubusercontent.com/TechnoTUT/Network/main/network_event.drawio.svg)  
+![network](https://raw.githubusercontent.com/TechnoTUT/Infrastructure/main/network_event.drawio.svg)  
 なお、スイッチ内の数字はポート番号を表しています。  
 Allied Telesis AT-x600-48Tsの`port1.0.42, port1.0.45, port1.0.46, port1.0.47, port1.0.48`およびAllied Telesis AT-x210-24GT、Allied Telesis GS924M V2の`port1.0.15, port1.0.16, port1.0.23, port1.0.24`、Cisco Catalyst 2960 Plus 24TC-Lの`Gi0/1`ポートは、Taggedポートに設定されており、スイッチ間やサーバとの接続に使用します。  
 Cisco Catalyst 2960 Plus 24TC-Lの`Gi0/2`ポートは、Cisco Aironet 2700と接続します。  
