@@ -17,6 +17,9 @@ env:
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./.devcontainer
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
       contents: read
