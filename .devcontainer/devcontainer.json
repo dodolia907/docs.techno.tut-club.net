@@ -3,7 +3,7 @@
 {
 	"name": "dev.technotut.net",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ghcr.io/TechnoTUT/dev.technotut.net:latest",
+	"image": "ghcr.io/technotut/dev.technotut.net:main",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -12,7 +12,9 @@
 		"ms-ceintl.vscode-language-pack-ja",
 		"github.vscode-github-actions",
 		"github.github-vscode-theme",
-		"ms-vscode.vscode-typescript-next"
+		"github.vscode-pull-request-github",
+		"ms-vscode.vscode-typescript-next",
+		"eamodio.gitlens"
 		],
 		"settings": {
 			"workbench.colorTheme": "GitHub Dark Default"
