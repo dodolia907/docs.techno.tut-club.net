@@ -3,7 +3,7 @@
 GitHub Codespacesは, GitHubが提供する, ブラウザ上で動作する統合開発環境です. Codespacesを用いることで, ローカル環境を用意することなく, ブラウザ上での編集が可能になります. ブラウザで動作するため, OSや手元の計算機性能に依存しません.  
 個人用GitHubアカウントでは, 120コア時間/月(60時間/月)まで, GitHub Proでは, 180コア時間/月(90時間/月)まで, 無料で利用することができます.  
 ## 使い方
-### 1. Codespacxesを開く  
+### 1. Codespacesを開く  
 https://github.com/TechnoTUT/docs.technotut.net を開き,  `Code` > `Codespaces` > `+` の順に選択します.  
 少し待つと, Codespacesが起動します.  
 ### 2. ブランチを作成する
