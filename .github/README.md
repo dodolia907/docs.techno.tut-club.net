@@ -4,7 +4,7 @@ Docusaurusを使用して作成されており、PushするとGitHub Actionsに�
 
 開発用コンテナのDockerfileは、`.devcontainer/Dockerfile`にあります。Dockerfileにコミットすると、GitHub Actionsによって自動的にビルドされ、GitHub PackagesにDockerイメージがアップロードされます。  
 ```
-docker pull ghcr.io/technotut/dev.technotut.net:main
+docker pull ghcr.io/technotut/docs.technotut.net:main
 ```
 このDockerイメージを利用し、GitHub Codespaces または DockerとVisual Studio Code を用いた開発を行うことができます。詳しくは次章を参照してください。
 
