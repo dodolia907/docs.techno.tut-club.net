@@ -3,9 +3,9 @@ title: よく使う理論リスト
 sidebar_label: よく使う理論リスト
 sidebar_position: 1
 ---
-Last update: 2023/12/26 by akaichi
+Last update: 2024/12/3 by Akaichi
 
-akaichiが作編曲においてよく使う（べきだと思ってる）ことリスト <br />
+Akaichiが作編曲においてよく使う（べきだと思ってる）ことリスト <br />
 要望があったら，個別記事でわかりやすく解説するかもです
 
 ## アヴォイドノート
